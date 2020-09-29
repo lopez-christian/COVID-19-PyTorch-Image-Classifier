@@ -30,13 +30,13 @@ Next, came the training and test set preparation along with creating a custom da
 
 DataLoaders need to be created that will aid in populating the sets from the images in each of the folders. These essentially fetch examples to feed the model during the training process. The DataLoaders iterate over the folders containing the images and tell us how many images are in each. Allowing us to correctly segmentate the relevant images into their respective categories.  
 
-### <ins> This is for training: </ins>
+### <ins><p align='center'> This is for training: </ins>
 
 <p align='center'>
 <img width="974" alt="Screen Shot 2020-09-28 at 9 42 21 PM" src="https://user-images.githubusercontent.com/53641091/94513441-8a99e200-01d3-11eb-9fb5-75607b24d408.png">
 </p>
 
-### <ins> This is for testing: </ins>
+### <ins><p align='center'> This is for testing: </ins>
 <p align='center'>
 <img width="974" alt="Screen Shot 2020-09-28 at 9 42 31 PM" src="https://user-images.githubusercontent.com/53641091/94513714-4c50f280-01d4-11eb-8287-9f5f8a575fdc.png">
 </p>
@@ -73,13 +73,13 @@ The most interesting and fun part is the training phase of the project. Wherein,
 <img width="573" alt="Screen Shot 2020-09-28 at 10 21 48 PM" src="https://user-images.githubusercontent.com/53641091/94515733-195d2d80-01d9-11eb-89f9-c6df9ef22898.png">
 </p>
 
-#### <ins> These are our final predictions illicited by our COVID-19 resnet18 PyTorch Image Classifier ... </ins>
+#### <ins><p align='center'>These are our final predictions illicited by our COVID-19 resnet18 PyTorch Image Classifier ... </ins>
 
 <p align='center'>
 <img width="569" alt="Screen Shot 2020-09-28 at 10 25 17 PM" src="https://user-images.githubusercontent.com/53641091/94515996-b28c4400-01d9-11eb-8cfd-b43987f89506.png">
 </p>
 
-#### <ins> It is not 100% accurate, so we must expect some mistakes ... </ins>
+#### <ins><p align='center'> It is not 100% accurate, so we must expect some mistakes ... </ins>
 
 <p align='center'>
 <img width="569" alt="Screen Shot 2020-09-28 at 10 25 27 PM" src="https://user-images.githubusercontent.com/53641091/94516075-dc456b00-01d9-11eb-8297-3c04f288100d.png">
