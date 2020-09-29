@@ -47,7 +47,7 @@ For reference, this is a visual representation of the training and test batch si
 <img width="873" alt="Screen Shot 2020-09-28 at 9 58 19 PM" src="https://user-images.githubusercontent.com/53641091/94514320-bddd7080-01d5-11eb-9845-f9b4da940cb0.png">
 </p>
 
-We then proceed to the visualization phase of the project where we create a helper function that form part of the training loop. This function converts the tensorflow images back to numpy arrays. It also undoes the normalization performed in the previous step using mean and standard deviation (std). The image pixel values are converted back to their orginal values and displayed using subplot. 
+We then proceed to the visualization phase of the project where we create a helper function that forms part of the training loop. This function converts the tensorflow images back to numpy arrays. It also undoes the normalization performed in the previous step using mean and standard deviation (std). The image pixel values are converted back to their orginal values and displayed using subplot. 
 
 <p align='center'>
 <img width="576" alt="Screen Shot 2020-09-28 at 10 05 30 PM" src="https://user-images.githubusercontent.com/53641091/94514734-d00bde80-01d6-11eb-8c27-f15cef22a7ec.png">
@@ -55,6 +55,22 @@ We then proceed to the visualization phase of the project where we create a help
 
 <p align='center'>
 <img width="576" alt="Screen Shot 2020-09-28 at 10 05 52 PM" src="https://user-images.githubusercontent.com/53641091/94514740-d306cf00-01d6-11eb-8f35-24f4315bfd22.png">
+</p>
+
+Then comes the model creation juncture of the project. We use the resnet18 model imported from torchvision.models. It comes ready with pre-trained weights, having been trained on the ImageNet Dataset. This image database is comprised of hundreds and thousands of images. This makes it quite a robust model to play with and serves our purpose perfectly. Not without first adjusting one of the parameters found in the fully-connected layer of the resnet18 model architecture. The resnet18 model comes with a pre-defined out_features parameter of 1000 and we only need 3 (normal, viral, covid). We also set the desired optimization and learning rate.
+
+<p align='center'>
+<img width="576" alt="Screen Shot 2020-09-28 at 10 17 53 PM" src="https://user-images.githubusercontent.com/53641091/94515485-7d332680-01d8-11eb-9556-36be2c392982.png">
+</p>
+
+The most interesting and fun part is the training phase of the project. Wherein, we witness the runnning of our epochs and the training of our model. We see validation loss and accuracy scores for every 20 steps ran. 
+
+<p align='center'>
+<img width="576" alt="Screen Shot 2020-09-28 at 10 21 22 PM" src="https://user-images.githubusercontent.com/53641091/94515717-0f3b2f00-01d9-11eb-844a-9bfa8054037d.png">
+</p>
+
+<p align='center'>
+<img width="573" alt="Screen Shot 2020-09-28 at 10 21 48 PM" src="https://user-images.githubusercontent.com/53641091/94515733-195d2d80-01d9-11eb-89f9-c6df9ef22898.png">
 </p>
 
 ## Key takeways:
