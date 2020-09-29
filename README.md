@@ -31,6 +31,7 @@ Next, came the training and test set preparation along with creating a custom da
 DataLoaders need to be created that will aid in populating the sets from the images in each of the folders. These essentially fetch examples to feed the model during the training process. The DataLoaders iterate over the folders containing the images and tell us how many images are in each. Allowing us to correctly segmentate the relevant images into their respective categories.  
 
 ### <ins> This is for training: </ins>
+
 <p align='center'>
 <img width="974" alt="Screen Shot 2020-09-28 at 9 42 21 PM" src="https://user-images.githubusercontent.com/53641091/94513441-8a99e200-01d3-11eb-9fb5-75607b24d408.png">
 </p>
@@ -38,6 +39,22 @@ DataLoaders need to be created that will aid in populating the sets from the ima
 ### <ins> This is for testing: </ins>
 <p align='center'>
 <img width="974" alt="Screen Shot 2020-09-28 at 9 42 31 PM" src="https://user-images.githubusercontent.com/53641091/94513714-4c50f280-01d4-11eb-8287-9f5f8a575fdc.png">
+</p>
+
+For reference, this is a visual representation of the training and test batch sizes we will be utilizing:
+
+<p align='center'>
+<img width="873" alt="Screen Shot 2020-09-28 at 9 58 19 PM" src="https://user-images.githubusercontent.com/53641091/94514320-bddd7080-01d5-11eb-9845-f9b4da940cb0.png">
+</p>
+
+We then proceed to the visualization phase of the project where we create a helper function that form part of the training loop. This function converts the tensorflow images back to numpy arrays. It also undoes the normalization performed in the previous step using mean and standard deviation (std). The image pixel values are converted back to their orginal values and displayed using subplot. 
+
+<p align='center'>
+<img width="576" alt="Screen Shot 2020-09-28 at 10 05 30 PM" src="https://user-images.githubusercontent.com/53641091/94514734-d00bde80-01d6-11eb-8c27-f15cef22a7ec.png">
+</p>
+
+<p align='center'>
+<img width="576" alt="Screen Shot 2020-09-28 at 10 05 52 PM" src="https://user-images.githubusercontent.com/53641091/94514740-d306cf00-01d6-11eb-8f35-24f4315bfd22.png">
 </p>
 
 ## Key takeways:
