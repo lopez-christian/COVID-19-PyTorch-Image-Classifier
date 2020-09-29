@@ -73,13 +73,13 @@ The most interesting and fun part is the training phase of the project. Wherein,
 <img width="573" alt="Screen Shot 2020-09-28 at 10 21 48 PM" src="https://user-images.githubusercontent.com/53641091/94515733-195d2d80-01d9-11eb-89f9-c6df9ef22898.png">
 </p>
 
-These are our final predictions illicited by our COVID-19 resnet18 PyTorch Image Classifier:
+## These are our final predictions illicited by our COVID-19 resnet18 PyTorch Image Classifier:
 
 <p align='center'>
 <img width="569" alt="Screen Shot 2020-09-28 at 10 25 17 PM" src="https://user-images.githubusercontent.com/53641091/94515996-b28c4400-01d9-11eb-8cfd-b43987f89506.png">
 </p>
 
-It is not 100% accurate, so we must expect some mistakes ... 
+## It is not 100% accurate, so we must expect some mistakes ... 
 
 <p align='center'>
 <img width="569" alt="Screen Shot 2020-09-28 at 10 25 27 PM" src="https://user-images.githubusercontent.com/53641091/94516075-dc456b00-01d9-11eb-8297-3c04f288100d.png">
