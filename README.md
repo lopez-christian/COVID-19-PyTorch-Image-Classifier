@@ -87,8 +87,15 @@ The most interesting and fun part is the training phase of the project. Wherein,
 
 ## Key takeways:
 
-*1. .*
+*1. This resnet18 image classifier can play an essential role in clinical treatments and teaching tasks. Doctors 
+    and medical practitioners can use the predictions illicited by the model to guide their intuition and make more 
+    informed decisions.*
 
-*2. .*
+*2. The model can be trained even further by providing it with more pre-labeled medical image datasets. A 
+    significant amount of medical expertise is needed to correctly label the images that will be fed to the model, 
+    but eventually the model will be very adept when classifying novel data.*
 
-*3. .*
+*3. Over time, the model will be able to correctly classify vast amounts of data with significant accuracy and 
+    minimal validation loss. This resnet18 image classifier can then be utilized an a myriad of ways, including 
+    but not limited to, the detection of new strains of COVID. This would undoubtably lead to noteworthy 
+    discoveries that will lead to advances in the medical field.*
