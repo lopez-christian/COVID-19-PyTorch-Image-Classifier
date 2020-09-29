@@ -30,12 +30,12 @@ Next, came the training and test set preparation along with creating a custom da
 
 DataLoaders need to be created that will aid in populating the sets from the images in each of the folders. These essentially fetch examples to feed the model during the training process. The DataLoaders iterate over the folders containing the images and tell us how many images are in each. Allowing us to correctly segmentate the relevant images into their respective categories.  
 
-#### This is for training:
+### <ins> This is for training: </ins>
 <p align='center'>
 <img width="974" alt="Screen Shot 2020-09-28 at 9 42 21 PM" src="https://user-images.githubusercontent.com/53641091/94513441-8a99e200-01d3-11eb-9fb5-75607b24d408.png">
 </p>
 
-#### This is for testing:
+### <ins> This is for testing: </ins>
 <p align='center'>
 <img width="974" alt="Screen Shot 2020-09-28 at 9 42 31 PM" src="https://user-images.githubusercontent.com/53641091/94513714-4c50f280-01d4-11eb-8287-9f5f8a575fdc.png">
 </p>
